@@ -32,6 +32,10 @@ header h2 {
     min-height: 200px;
 }
 
+.row-content-remove-ridge {
+    padding: 50px 0;
+    min-height: 200px;
+}
 .navbar {
     background-color: #901CAD;
 }
@@ -53,4 +57,11 @@ a, a:hover {
 
 .carousel {
     border: solid #5637DD;
+}
+
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
 }
